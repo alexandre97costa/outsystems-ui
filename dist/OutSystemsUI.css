@@ -793,7 +793,8 @@ body,
 }
 .phone .layout .main-content .layout.layout-native{
   -servicestudio-min-width:100vw;
-} /*! 3.2. Header */
+}
+/*! 3.2. Header */
 .header{
   background-color:var(--header-color);
   -webkit-box-shadow:0 1px 5px 0 rgba(21, 24, 26, 0.1);
@@ -4656,7 +4657,7 @@ span.flatpickr-weekday{
 }
 /*! 5.4. VirtualSelect */
 /*!
- * Virtual Select v1.0.39
+ * Virtual Select v1.0.40
  * https://sa-si-dev.github.io/virtual-select
  * Licensed under MIT (https://github.com/sa-si-dev/virtual-select/blob/master/LICENSE)
  */

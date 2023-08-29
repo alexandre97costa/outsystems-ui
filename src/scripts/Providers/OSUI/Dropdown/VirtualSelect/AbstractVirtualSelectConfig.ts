@@ -155,8 +155,7 @@ namespace Providers.OSUI.Dropdown.VirtualSelect {
 				previousValue[group_name].push(option);
 
 				return previousValue;
-			},
-			{});
+			}, {});
 			return [hasDescription, groupOptionsObject];
 		}
 
@@ -181,6 +180,7 @@ namespace Providers.OSUI.Dropdown.VirtualSelect {
 			// Set the library options
 			this._providerOptions = {
 				ele: this.ElementId,
+				disabled: this.IsDisabled,
 				dropboxWrapper: OSFramework.OSUI.GlobalEnum.HTMLElement.Body,
 				hasOptionDescription: hasDescription,
 				hideClearButton: false,
